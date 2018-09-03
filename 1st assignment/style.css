@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+
+.wrap{
+	border-radius: 3px;
+	background-color:  grey;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+	width: 500px;
+	margin: 100px auto;
+}
+
+.header{
+	background-color: #17a2d4;
+	color: white;
+	font-family: serif;
+	font-size: 18px;
+	text-align: center;
+	padding: 24px;
+}
+
+.content{
+	padding: 50px;
+	background-color: white;
+}
+
+.content .items{
+	margin-bottom: 20px;
+}
+
+.content .items input{
+    border-radius: 3px;
+	border-width: 1px;
+	border-color:  #e8e8e8;
+	border-style: solid;
+	background-color:  white;
+	width: 400px;
+	height: 58px;
+	
+	font-size: 18px;
+
+}
+
+.login{
+	border-radius: 3px;
+	background-color:  #17a2d4;
+	width: 400px;
+	height: 60px;
+	color: #fff;
+	text-align: left;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.facebook{
+	background-color: #3b5998;
+	border-radius: 3px;
+	width: 150px;
+	height: 50px;
+	color: #fff;
+	font-size: 18px;
+	float: left;
+}
+
+.google{
+	border-radius: 3px;
+	background-color: #d34836;
+	width: 150px;
+	height: 50px;
+	color: white;
+	font-size: 18px;
+	float:right;
+}
+
+.pwd{
+	float:left;
+	color: black;
+	font-size: 18px;
+}
+
+.signup{
+	float:right;
+	color:black;
+	font-size: 18px;
+}
+
+.clear{
+	clear: both;
+}
